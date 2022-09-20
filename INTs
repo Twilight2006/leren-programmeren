@@ -1,0 +1,2 @@
+game = input('welke game wilt u spelen? ' )
+print(' u wilt ' + game + ' spelen ' )
