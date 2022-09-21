@@ -1,7 +1,7 @@
 print(' hallo meneer/mevrouw, ik ben kaasbot en ik ga proberen te raden welke kaas u in uw hoofd hebt! ')
-print(' ik ga u een paar vragen stellen waarop u antwoord moet geven ')
+print(' ik ga u een paar vragen stellen waarop u antwoord moet geven, bliep bloep!')
 
-geel = input(' is de kaas geel of niet? J/N : ')
+geel = input(' is de kaas geel of niet? ja/nee : ')
 
 if geel == 'nee':
     schimmel = input(' heeft de kaas blauwe schimmel? : ')
