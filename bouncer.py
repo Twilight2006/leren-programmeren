@@ -30,6 +30,8 @@ elif drink == 'B':
 else:
     print(' u mag niet naar binnen ')
 
+    werkt ie nog?
+
 
 
 
