@@ -1,22 +1,24 @@
-from operator import truediv
+import random
 
+wasmand = []
 
-var1 = 3
-var2 = 4
-var3 = 'sven'
+kleuren = ['wit' , 'zwart' , 'rood']
+paren = 5
+for kleur in kleuren:
+    for x in range(paren*2):
+        wasmand.append(kleur)
 
-ok = False
-if var1 == 4 :
-    if var2 < 10:
-        if len(var3) == 4:
-            ok = True
+random.shuffle(wasmand)
 
-if ok ==True:
-    print('you good m8')
+hand = []
+pickup = wasmand.pop(0)
+while pickup not in hand:
+    hand.append(pickup)
+    pickup = wasmand.pop(0)
 else:
-    print('hell naw')
+    hand.append(pickup)
 
-
+print(hand)
 
 
 
