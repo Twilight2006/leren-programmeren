@@ -1,0 +1,232 @@
+Prequel:
+Het is een stille nacht......
+Gewoon een normale nacht als altijd, voor <your name>.
+De sterren schijnen, de krekels tjirpen, Je kat ligt in haar mand,
+En jij licht wakker, op je telefoon.
+Dat is niets nieuws voor <your name>.
+Meestal kijk je 's nachts nog tot ongeveer 1 uur op je telefoon tot je echt gaat slapen.
+Maar vandaag was anders.
+Je hebt het gevoel dat er iets naar je kijkt.
+In het donker....
+Wat ge je doen?
+A: Blijf liggen -> je negeert het en je hebt gewoon weer een normale nacht. (Einde)
+B: Ga kijken -> je gaat je bed uit en gaat naar de hoek van je kamer, waardat je denkt dat 'iets' naar je aan het kijken is.
+Als je dichterbij komt, voel je opeens een rare steek in je zij.
+Je wordt duizelig en begint een stem te horen in je hoofd....
+'ooh ooh ah?'
+?
+'Wat is dit?'
+Je valt buiten bewustheid...
+
+Main story:
+Je wordt eindelijk wakker, na wat heeft gevoeld als een eeuwigheid.
+Je voelt je een beetje duizelig, maar het is nog wel te doen.
+Je doet je ogen open en strekt.
+Wat je daarna ziet is niet te geloven.
+Je bent niet in je eigen kamer!
+'Waar ben ik? '
+'Ben ik geontvoerd? is dit een droom?'
+Je slaat jezelf.
+'wacht, wat was dat? '
+Toen jejezelf raakte, voelde je een raar soort haar..
+Je kijkt naar je hand.
+Je kan je ogen niet geloven. Nee, je WILT je ogen niet geloven.
+'BEN IK EEN AAP GEWORDEN? '
+Riep <your name> zo hard als die kon.
+Daarna opent er een deur....
+Wacht....
+Is dat.....
+DONKEY KONG?
+Ja hoor, er komt een Donkey Kong uit de deur.
+'ooh ooh ha hahaa ooh? ' (Hallo, <your name>
+Wat?
+Waarom kan je hem verstaan?
+'Kan je mij verstaan?'
+Je vraagt je af wat Donkey Kong gaat zeggen...
+'oohooooooh haha' (Ja, ik kan je verstaan)
+'ooooohhooooooohoooohoooooi!' (Ik heb je meegenomen naar onze wereld omdat je ons moet helpen!)
+'ooh ooh ah ah' ('Onze schat is gestolen, wil je ons alsjeblieft helpen, <your name> ?)
+Wat zeg je?
+A: Nee -> Donkey Kong maakt je dood. (einde)
+B: Ja -> 'Ja, ik help je'
+'oooh hooo hooi' ('Dankje, <your name>. Zie je die tempel daar? Daar is onze schat. Iemand heeft onze schat daarheen gebracht.)
+'OK, leid me maar de weg, Donkey Kong!'
+'hooohooohaha' ('Wacht, <your name>  klinkt niet als een aap, er moet een mooie naam achter! Wat vind je van <your name> kong?)
+Wat zeg je?
+A: 'Ja hoor, ik Ben nu <your name> Kong'
+B: 'Nee, dat wil ik niet. -> Dat vindt Donkey Kong niet leuk. 'ooooh ooh ooha' (Je maakt traditie kapot. Weg met jouw) -> Donkey Kong maakt je dood. (einde)
+Terwijl jullie 2 naar de tempel lopen, begin je een beetje te twijfelen.
+Maar je gaat nu niets meer terug. Je gaat ervoor.
+
+Main gameplay:
+Je komt de tempel in.
+Donkey Kong zwaait je na en loopt terug naar het huis waar jullie vandaan komen.
+Je loopt de trappen af.
+[34 minuten later]
+'Sheesh, dit zijn wel heel veel trappen.'
+Je blijft doorlopen, totdat je onderaan komt.
+Je ziet een grote hal, met twee kanten.
+Oh nee.
+Je moet kiezen tussen twee kanten. welke kant kies je?
+A: links
+B: Rechts
+
+if antwoord = A: Je gaat de linkse kamer in.
+Hij is nogal donker, maar je kan nig wel dingen zien.
+'Ooooooh boy'
+Nu begint het.
+Je ziet een gigantische dobbelsteen, met een bord daarnaast.
+{Oh, thzou who will be poor enough to enter zhis cursed tzemple,
+ Thzou will not pass without good o'l luck.
+ Thzou will have to choose a anwser based on what i ask Tzhou,
+ Good ZLuck poor Zhoul.}
+'Oh god, dit komt nooit goed.'
+Opeens hoor je uit een gigantische luidspreker in je oor roepen..
+'Oh THZOU WHO ENTERED TZHIS CURSED LAND, WHAT IZT 5+5x2:3+1? Round UP^
+if anwser == '8':
+	continue.
+else: De muren komen naar je toe... 'Dit is het daan' -> einde
+
+continue -> 'Oke', we gaan door.
+
+
+elif antwoord ==  B: Je gaat de rechtse kamer in.
+Het eerste wat je ziet makkt je nu al bang:
+een Gigantisch standbeeld van een spin....
+'Oh nee'
+Je kijkt naar achter om te kijken of je nog terug kan.
+De deur is dicht.
+Het spinnenbeeld begint te Praten..
+'Oh you who enter this land, you have lots and lots of courage..
+ you have a VERY courages heart. So tell me, are you REALLY a monkey,
+ or have your 'friends' transformed you?'
+Je staat stil van angst.
+'AWNSER ME! OR I UNLEASH MY FURY!'
+'o-ohh---k . Ok.
+'Ik ben'
+Wat zeg je?:
+A: echt een aap
+B: eigenlijk een mens.
+
+if answer == A:
+'You dare LIE to me> i don't like liars like you!
+ you deserve to die a painful death!'
+Dat klinkt niet leuk...
+opeens voel je iets op je kruipen.
+Spinnen...
+Heel, heel veel spinnen.
+Je wordt bang.
+je kijkt naar links.
+miljoenen spinnen op de muur.
+Rechts.
+Hetzelfde. 
+Dan kijk je naar boven.
+Nog erger, VOGELSPINNEN.
+Je accepteert je lot....
+---GAME OVER---
+
+elif antwoord == B:
+'Atleast your honest, that's a rare thing these days...
+ Alright, i've got an idea.....
+ How about This, I'll let you past if you answer my question correctly,
+ owtherwise you are NOT going to have a great time...'
+'Ok, kom maar op!'
+'You surely are special, mutant....
+ Alright, here's my question, or moreso a riddle...
+ I'm small and slow, people hate me, but i can hide myself in my home. what am i?'
+Wat zeg je? (Nederlands antwoord)
+if antwoord = 'slak':
+'alright, i'll let you past'
+
+else: 'Too bad, bye-bye...'
+opeens voel je iets op je kruipen.
+Spinnen...
+Heel, heel veel spinnen.
+Je wordt bang.
+je kijkt naar links.
+miljoenen spinnen op de muur.
+Rechts.
+Hetzelfde. 
+Dan kijk je naar boven.
+Nog erger, VOGELSPINNEN.
+Je accepteert je lot....
+---GAME OVER---
+
+allebei de paden leiden tot dit punt:
+final gameplay:
+Je gaat door een gigantische deur die zojuist is geopened.
+Je schrikt je kapot als het pad gelijk rechts kinkt.
+Dat was te dichtbij.... bijna in een afgrond gevallen.
+Je volgt het pad,
+todat je, alweer in een GIGANTISCHE hal komt.
+'Dit moet het zijn, er is geen andere optie. Ik voel het'
+Als je rond de hal kijkt, zie je aan de andere kant ook een deur.
+Je had dus ook naar rechts kunnen gaan, allebei de kanten leiden hierheen.
+Je kijkt naar boven, daar zie je een platfrom hangen met een geel-groene gloed.
+Daar moet je zijn.
+Dat Moét bijna wel.
+Hopelijk is de schat het waard.
+Maar er is een probleem: er is geen trap naar boven.
+'Dit wordt nog moeilijk, huh?'
+Je kijkt door de ruimte.
+Je ziets 3 items:
+Een touw, een ladder en een vishengel.
+Alle 3 hangen in een kast.
+Er staat een bord naast.
+{You who dared to enter this temple, you have done well to come this far.
+ I will offer you this last challenge. If you succeed, you will keep the treasure.
+ If you don't, noone has survived failure, so no tale tells.
+ Before you you see 3 items: take one. If you take more, you will get punished.
+ think smart, hero. think smart.}
+'OK, hier gaan we....'
+Welk item kies je?
+A: Touw
+B: ladder
+C: vishengel
+
+A: Je probeert het touw naar boven te gooien.
+Het komt niet ver genoeg.
+'Welp, dit is het dan.'
+---GAME OVER---
+
+B: Je gooit de ladder tegen de muur aan en klimt erop.
+De ladder lijkt niet hoog genoeg te zijn.
+Je probeert het nog een keer.
+Geen succes.
+Je probeert het nog 1 keer;
+Je valt met de ladder naar beneden.
+No tale tells....
+---GAME OVER---
+
+C: Je gebruikt de vishengel om te kijken of je de schat naar beneden kan hengellen.
+Het werkt!
+Een Wonder! Je hebt het geraakt!
+Nu nog inhalen.
+Terwijl je het naar beneden haalt, probeer je te zien wat het is.
+EEN BANAAN?
+WTF?
+'DIT KAN NIET WAARZIJN!'
+'DIT IS WAAR IK HET VOORDOE!?'
+'IK VERVLOEK JOU, DONKEY KONG!'
+'Wat ga ik nu doen?
+A: Eet de banaan om Donkey Kong te pesten.
+B: Neem de banaan mee naar buiten.
+
+A: Terwijl je de banaan eet, voel je iets veranderen...
+Je wordt weer....
+Een mens?
+Dan wordt je wakker..
+
+---------------------
+
+Credits:
+Verhaal: Sven van den Heuvel
+Gameplay: Sven van den Heuvel
+Bugtesting: Sven van den Heuvel
+
+B:Het exacte moment dat je buiten komt, Valt Donkey Kong je aan.
+'Hey, DONKEY, wat ben je aan het doen!?'
+Hij reageert niet.
+Hij scheurt je hoofd open, je buik open en maakt je maag open.
+Hij maakt je dood zodat de banaan van hem is...
+---GAME OVER---
