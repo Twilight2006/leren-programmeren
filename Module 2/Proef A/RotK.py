@@ -71,7 +71,7 @@ elif antwoord =='b':
             print('Je ziet een grote hal, met twee kanten.')
             print('Oh nee.')
             print('Je moet kiezen tussen twee kanten. welke kant kies je?')
-            side = input('Kies wijs: links of Rechts?: A-links / B-rechts')
+            side = input('Kies wijs: links of Rechts?: A-links / B-rechts : ')
             if side == 'a':
                 print('Je gaat de linkse kamer in')
                 print('Hij is nogal donker, maar je kan nog wel dingen zien.')
@@ -84,17 +84,35 @@ elif antwoord =='b':
                 print('Good ZLuck poor Zhoul.}')
                 print('Oh god, dit komt nooit goed.')
                 print('Opeens hoor je uit een gigantische luidspreker in je oor roepen..')
-                awnser = input('Oh THZOU WHO ENTERED TZHIS CURSED LAND, WHAT IZT 5+5x2:3+1? Round UP^')
+                awnser = input('Oh THZOU WHO ENTERED TZHIS CURSED LAND, WHAT IZT 5+5x2:3+1? Round UP^ : ')
                 if awnser == '8':
-                    print('DONE')
+                    print('De speaker gaat weg.')
+                    print('Je hebt het juist beantwoord, nu kan je verder!')
+
                 else:
-                    print('YOU WILL DIE')
+                    print('Als het voor een paar secoden stilblijft, begin je te stressen.')
+                    print('Dan komen de muren op je af....')
+                    print('---GAME OVER---')
 
                
 
 
             elif side == 'b':
-                print()
+                print('Je gaat de rechtse kamer in')
+                print('Het eerste wat je ziet makkt je nu al bang:')
+                print('een Gigantisch standbeeld van een spin....')
+                print('Oh nee')
+                print('Je kijkt naar achter om te kijken of je nog terug kan.')
+                print('De deur is dicht.')
+                print('Het spinnenbeeld begint te Praten..')
+                print('Oh you who enter this land, you have lots and lots of courage..')
+                print('you have a VERY courages heart. So tell me, are you REALLY a monkey,')
+                print('or have your friends transformed you?')
+                print('Je staat stil van angst.')
+                print('AWNSER ME! OR I UNLEASH MY FURY!')
+                print('o-ohh---k . Ok.')
+                print('Ik ben')
+                spin = input('Wat zeg je?':)
                 
             else:
                 print('Dat is geen mogelijkheid, Restarting program...(herstart het programma)')
