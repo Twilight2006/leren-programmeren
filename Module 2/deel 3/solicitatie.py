@@ -5,6 +5,8 @@ try:
     print(' ofdat u de verseiste ervaring heeft. ' )
     print(' op basis van uw antwoorden laten we u weten of u bent aangenomen.')
     name = input(' Wat is uw naam?: ')
+    if name == 'sven':
+        raise NameError('U mag niet dezelfde naam hebben als de eigenaar!')
     print(' Hallo, ' + name)
     gender = input(' bent u een man of een vrouw? m/v: ')
     diploma = input(' heeft u een mbo-4 diploma ondernemen? ja/nee: ' )
@@ -18,7 +20,7 @@ try:
     if gender == 'm':
         hoed = input(' heeft u een hoge hoed? ja/nee:')
         snor = input(' heeft u een snor? ja/nee: ')
-        if snor == 'ja' or hoed == 'ja':
+        if snor == 'ja' and hoed == 'ja':
             aangenomen = True
         else:
             aangenomen = False
@@ -28,7 +30,7 @@ try:
         gewicht = int(input(' Hoe zwaar bent u in KG?:  '))
         certificaat = input(' heeft u een certififaat voor Overleven met gevaarlijk personeel? ja/nee ')
 
-        if int(jsnor > 9) or (int(lengte > 149) and int(gewicht > 55)) and certificaat == 'ja':
+        if int(jsnor > 9) and (int(lengte > 149) and int(gewicht > 55)) and certificaat == 'ja':
             aangenomen = True
         else:
             aangenomen = False
@@ -46,18 +48,19 @@ try:
         gewicht = int(input(' Hoe zwaar bent u in KG?:  '))
         certificaat = input(' heeft u een certififaat voor Overleven met gevaarlijk personeel? ja/nee ')
 
-        if int(lengtehaar > 19) or (int(lengte > 149) and int(gewicht > 55)) and certificaat == 'ja':
+        if int(lengtehaar > 19) and (int(lengte > 149) and int(gewicht > 55)) and certificaat == 'ja':
             aangenomen = True
         else:
             aangenomen = False
 
-    dd = int(input(' hoeveel jaar ervaring heeft u met dieren-dressuur? :'))
+    dd = int(input(' hoeveel jaar ervaring heeft u met dieren-dressuur? : '))
     acrobatiek = int(input(' hoeveel jaar ervaring heeft u met acrobatiek? : '))
-    jongleren = int(input(' hoeveel jaar ervaring heeft u met jongleren? :'))
+    jongleren = int(input(' hoeveel jaar ervaring heeft u met jongleren? : '))
 
     if dd > 3 or acrobatiek > 5 or jongleren > 2:
         aangenomen = True
-    else: aangenomen = False
+    else:  
+        aangenomen = False
 
     if aangenomen == True:
         print(' Heel goed gedaan, ' + name + ' , ' + 'u bent aangenomen!')
@@ -65,7 +68,4 @@ try:
         print(' Helaas, u bent niet aangenomen') 
     
 except ValueError as e:
-    print(' Dat is geen nummer!')
-
-
-
+    print(' Dat is geen nummer! vul alleen het getal in (bv: 130, 45 etc...')

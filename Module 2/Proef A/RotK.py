@@ -112,7 +112,8 @@ elif antwoord =='b':
                 print('AWNSER ME! OR I UNLEASH MY FURY!')
                 print('o-ohh---k . Ok.')
                 print('Ik ben')
-                spin = input('Wat zeg je?':)
+                spin = input('Wat zeg je? :')
+                
                 
             else:
                 print('Dat is geen mogelijkheid, Restarting program...(herstart het programma)')

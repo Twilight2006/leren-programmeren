@@ -1,0 +1,19 @@
+try:
+    age = int(input('wat is uw leeftijd?'))
+
+    if age > 17: 
+        print('Kom maar naar binnen!')
+        print('Volg mij maar naar binnen, ik leid je de weg!')
+
+    elif age < 18:
+        print('U moet buiten blijven...')
+        print('er is wel iets anders wat u kunt doen.')
+        speeltuin = str(input('Wilt u naar de speeltuin? ja/nee: '))
+
+    if speeltuin == 'ja':
+        print('Volg mij maar.')
+    elif speeltuin == 'nee':
+        print('Oh, ga dan maar naar huis.')
+
+except:
+    raise ValueError('Dat is de verkeerde waarde!')
