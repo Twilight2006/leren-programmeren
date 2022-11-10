@@ -14,9 +14,9 @@ for i in range(2):
 robotArm.drop()
 
 for i in range(7):
-    robotArm.moveLeft()
-    robotArm.moveLeft()
-    robotArm.moveLeft()
+    for i in range(3):
+        robotArm.moveLeft()
+    
     robotArm.grab()
     robotArm.moveRight()
     robotArm.moveRight()
