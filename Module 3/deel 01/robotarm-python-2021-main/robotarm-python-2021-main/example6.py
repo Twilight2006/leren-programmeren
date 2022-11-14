@@ -6,6 +6,7 @@ robotArm.moveRight()
 robotArm.grab()
 
 for i in range(6):
+    print(i)
     color = robotArm.scan()
     if color == 'white':
         robotArm.moveLeft()
