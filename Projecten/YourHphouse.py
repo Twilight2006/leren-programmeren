@@ -86,8 +86,8 @@ if taal == 'a':
             elif q3 == 'd':
                 score = score+2
             
-            print("Je bent goed bezig", naam)
-            print("OK,, volgende vraag.....")
+            print("Je bent goed op weg", naam)
+            print("OK, volgende vraag.....")
             print("Wat is je favoriete spreuk?: A:Stupefy | B:expelliarmus | C:Avada Kedavra | D:wingardium leviosa")
             q4 = input("Antwoord:")
             if q4 == 'a':
