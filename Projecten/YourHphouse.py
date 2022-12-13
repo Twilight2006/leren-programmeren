@@ -312,12 +312,12 @@ else:
                 print( house, "house"   ,                )
                 print(                                   )
                 print("---------------------------------")
-            else:
-                print("Have a nice day!")
-
-
         else:
-            happy = False
+            print("Have a nice day!")
+
+
+    else:
+        happy = False
 
 
 

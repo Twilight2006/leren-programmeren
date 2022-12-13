@@ -3,7 +3,7 @@ robotArm = RobotArm('exercise 11')
 for i in range(8):
     robotArm.moveRight()
 
-for i in range(9):
+for i in range(8):
     robotArm.grab()
     scan = robotArm.scan()
     if scan == 'white':
