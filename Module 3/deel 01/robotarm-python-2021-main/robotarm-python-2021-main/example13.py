@@ -10,10 +10,10 @@ while robotarm == True:
     if robotArm.scan() == '':
         robotarm = False
     else:
-        for j in range (rechts):
+        for r in range (rechts):
             robotArm.moveRight()
         robotArm.drop()
-        for x in range (links):
+        for l in range (links):
             robotArm.moveLeft()
         rechts -= 1
         links -= 1
