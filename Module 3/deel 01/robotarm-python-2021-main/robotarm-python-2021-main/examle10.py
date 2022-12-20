@@ -1,31 +1,17 @@
 from RobotArm import RobotArm
 robotArm = RobotArm('exercise 10')
-robotArm.grab()
-for i in range(9):
-    robotArm.moveRight()
-robotArm.drop()
-for i in range(8):
-    robotArm.moveLeft()
-robotArm.grab()
-for i in range(7):
-    robotArm.moveRight()
-robotArm.drop()
-for i in range(6):
-    robotArm.moveLeft()
-robotArm.grab()
-for i in range(5):
-    robotArm.moveRight()
-robotArm.drop()
-for i in range(4):
-    robotArm.moveLeft()
-robotArm.grab()
-for i in range(3):
-    robotArm.moveRight()
-robotArm.drop()
-robotArm.moveLeft()
-robotArm.moveLeft()
-robotArm.grab()
-robotArm.moveRight()
-robotArm.drop()
+rechts = 1
+links = 2        
 
+for i in range (4):
+    robotArm.moveRight()
+for x in range (5):
+    robotArm.grab()
+    for j in range(rechts):
+        robotArm.moveRight()
+    robotArm.drop()
+    for m in range(links):
+        robotArm.moveLeft()
+    rechts = rechts + 2
+    links = links + 2
 robotArm.wait()
