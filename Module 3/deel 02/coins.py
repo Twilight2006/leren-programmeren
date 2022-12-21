@@ -55,8 +55,8 @@ if change > 0: # als de 'change' hoger is dan 0,
     elif coinValue == 2:
       paid2 = nrCoinsReturned
       coinValue = 1
-      paid1 = nrCoinsReturned
     else:
+      paid1 = nrCoinsReturned
       coinValue = 0
 
 
@@ -65,6 +65,16 @@ if change > 0: # als de 'change' groter is dan 0, dan print het programma dat he
 else:
   print('done')
 
-kassabon = [paid500, paid200, paid100, paid50, paid20, paid10, paid5, paid2, paid1]
-for paid in kassabon:
-  print(paid, "keer teruggegeven")
+
+
+print(f"5 Euro : {paid500}")
+print(f"2 Euro : {paid200}")
+print(f"1 Euro : {paid100}")
+print(f"50 Cent : {paid50}")
+print(f"20 Cent : {paid20}")
+print(f"10 Cent : {paid10}")
+print(f"5 Cent : {paid5}")
+print(f"2 Cent : {paid2}")
+print(f"1 Cent : {paid1}")
+
+
