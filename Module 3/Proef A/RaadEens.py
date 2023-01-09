@@ -17,14 +17,14 @@ print("")
 print("***************************************************************************")
 
 while ronde <=20:
-    y = 0
+    aantal = 0
     randomnum = random.randint(1,1000)
-    print(randomnum)
     print(f"Ronde: {ronde}")
-    while y < 10:
+    print(randomnum)
+    while aantal < 10:
         awnser = int(input("Voer een getal in tussen de 1 en de 1000: "))
         if awnser == randomnum:
-            y = 10
+            aantal = 10
             score+=1
             print("gefeliciteerd, u heeft het getal geraden!")
         elif awnser - randomnum <= 20 and awnser - randomnum > 0 or randomnum - awnser <= 20 and randomnum - awnser > 0:
@@ -35,12 +35,13 @@ while ronde <=20:
             print("U moet hoger raden....")
         else:
             print("U moet lager raden.....")
-        y+=1
+        aantal+=1
         geraden +=1
 
     if ronde < 20:
         antwoord = input("Wilt u stoppen met spelen? Ja/Nee ").lower()
-        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+        print("**************************************")
         if antwoord == "ja":
             ronde = 20
+            print(f"Uw eindscore is: {score}") 
     ronde += 1
