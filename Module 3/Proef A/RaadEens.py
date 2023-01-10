@@ -37,6 +37,7 @@ while ronde <=20:
             print("U moet lager raden.....")
         aantal+=1
         geraden +=1
+        print(f"Score: {score}")
 
     if ronde < 20:
         antwoord = input("Wilt u stoppen met spelen? Ja/Nee ").lower()
