@@ -1,10 +1,27 @@
 verder = True
 lijstje = {
-        "Bier": 0,
-        "Hagelslag": 0,
-        "Brood": 0,
-        "Melk": 0,
-        "Beleg": 0,
-        "bananen": 0,
-        "Chips": 0
+
 }
+
+while verder == True:
+        item = input("Wat wilt u toevoegen?: ").lower()
+        aantal = input("En hoeveel ervan?: ")
+
+        if item in lijstje.keys():
+                lijstje[item]+=int(aantal)
+        else:
+                lijstje[item]=int(aantal)
+
+        print(lijstje)
+
+        meer = input("Wilt u meer toevoegen?: ")
+        if meer == 'ja':
+                verder = True
+        else:
+                verder = False
+                print("<-<- Uw boodschappenlijstje ->->")
+                for item in lijstje:
+                        print(lijstje[item], "x", item)
+
+
+
