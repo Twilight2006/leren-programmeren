@@ -8,11 +8,10 @@ for i in range(len(kleuren)):
     for j in range(len(nummers)):
         deck.append(f"{kleuren[i]} {nummers[j]}")
 
-kaartnummer = 1
-for i in range (7):
+for i in range (1,8):
     random.shuffle(deck)
-    print(f"Kaart {kaartnummer}; {deck.pop(0)}")
-    kaartnummer = kaartnummer + 1
+    print(f"Kaart {i}; {deck.pop(0)}")
+
 print("")
 print(f"deck (47 kaarten): {deck}")
 
