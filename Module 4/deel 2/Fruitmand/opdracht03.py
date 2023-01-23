@@ -1,4 +1,4 @@
 from fruitmand import fruitmand
 
-for i in range(1,7):
+for i in range(len(fruitmand)):
     print(fruitmand[i]['name'])
