@@ -1,5 +1,5 @@
 from fruitmand import fruitmand
 
-print(fruitmand[0])
+print(len(fruitmand))
 
 
