@@ -1,12 +1,27 @@
 from fruitmand import fruitmand
 
-erbij = {
-     'name' : 'mock-bottom',
-    'weight' : 195,
+fruitlist = []
+
+meloen = {
+    'name' : 'watermeloen',
+    'weight' : 375,
     'color' : 'pink',
     'round' : True
 }
 
-fruitmand.append(erbij)
+fruitmand.append(meloen)
 
-print(fruitmand)
+for i in range(len(fruitmand)):
+    fruitlist.append(fruitmand[i]["weight"])
+
+print(fruitlist)
+
+print(sum(fruitlist))
+
+
+
+
+
+
+
+
